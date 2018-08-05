@@ -46,7 +46,7 @@ function findBy(array, findFn) {
 
   for (var i = 0; i < array.length; i++) {
 
-    if (array[i] === skipValue) {
+    if (array[i] === findFn) {
 
         continue
 
@@ -55,8 +55,8 @@ function findBy(array, findFn) {
     array[i] = changeValue;
   }
 
-  
 
 
-  
+
+
 }
