@@ -52,8 +52,9 @@ function findBy(array, findFn) {
 
     }
 
-    array[i] = changeValue;
   }
+
+  return null
 
 
 
