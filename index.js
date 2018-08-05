@@ -48,14 +48,11 @@ function findBy(array, findFn) {
   for (var i = 0; i < array.length; i++) {
 
     findFn(i) {
-      array[i] === 
+      if (typeof array[i] === Number)
+      return array[i]
     }
 
-    if (typeof array[i] === typeof findFn()) {
-
-        return array[i]
-
-    }
+    
 
   }
 
